@@ -1,0 +1,11 @@
+[linux]
+n01610235-c-vm1.canadacentral.cloudapp.azure.com
+n01610235-c-vm2.canadacentral.cloudapp.azure.com
+n01610235-c-vm3.canadacentral.cloudapp.azure.com
+
+[os:children]
+linux
+
+[linux:vars]
+ansible_user=oladapo
+ansible_connection=ssh
